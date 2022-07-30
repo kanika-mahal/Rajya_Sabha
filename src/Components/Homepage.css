@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  .banner{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    background-color: #b71719;
+    z-index: -1;
+    
+  }
+  .row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+  }
+  .col{
+    flex-basis: 55%;
+  }
+  h1{
+    color: white;
+    font-size: 100px;
+  
+  }
+  p{
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+  }
+  button{
+    width: 200px;
+    color: red;
+    font-size: 20px;
+    padding: 12px ;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin:40px;
+    text-decoration: none;
+    cursor: pointer;
+  
+  }
+  .card{
+    width: 400px;
+    height: 460px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url("C:\Users\kanika\Downloads\rajyasabha-main\rajyasabha-main\public\background.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+  }
+  .card:hover{
+    transform: translateY(-10px);
+  }
+  h5{
+    color: black;
+    font-size: 20px;
+  }
+   

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Rajya Sabha</title>
+</head>
+<body>
+   <header>
+       <a href="#" class="logo"><img src="logo.jpg" alt="" srcset=""></a>
+       <a href="#" class="logo2"><img src="logo2.png" alt="" srcset=""></a>
+       <div class="search">
+           <input type="text" placeholder="Search">
+           <i class="fa-regular fa-magnifying-glass"></i>
+       </div>
+    </header>
+    <div class="navbar">
+        <ul>
+            <li>HOME</li>
+            <li>RAJYA SABHA</li>
+            <li>MEMBERS</li>
+            <li>COMMITTES</li>
+            <li>PROCEDURES</li>
+            <li>SECRETARIAT</li>
+            <li>PUBLICATIONS</li>
+        </ul>
+    </div>
+    <div class="cont">
+
+        
+        <div class="profile">
+            <img src="chairman.jpg" >
+            <div class="name">M. Venkaiah Naidu</div>
+            <div class="title">Chairman, Rajya Sabha</div>
+            
+        </div>
+        <div class="sliderbox">
+            <div id="slider">
+                <img src="slider.jpg" alt="" srcset="">
+                <img src="back2.jpg" alt="">
+            </div>
+            <div class="indicators">
+                <span id="btn1" class="active"></span>
+                <span id="btn2"></span>
+
+            </div>
+        </div>
+
+        <div class="profile">
+            <img src="dc.jpg" >
+            <div class="name">Harivansh N Singh</div>
+            <div class="title">Deputy Chairman, Rajya Sabha</div>
+            
+        </div>
+        
+    </div>
+
+    </div>
+    <script>
+        var slide = document.getElementById("slider");
+        var btn1 = document.getElementById("btn1");
+        var btn2 = document.getElementById("btn2");
+
+        btn1.onclick = function(){
+            slide.style.transform = "translateX(0px)";
+            btn1.classList.add("active");
+            btn2.classList.remove("active");
+        }
+        btn2.onclick = function(){
+            slide.style.transform = "translateX(-100%)";
+            btn2.classList.add("active");
+            btn1.classList.remove("active");
+
+        }
+        
+    </script>
+   
+    
+</body>
+</html>

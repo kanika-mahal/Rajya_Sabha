@@ -5,6 +5,7 @@ import Secondpage from "./Components/Secondpage.js";
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./Components/Footer.js";
+import Dummy from "./Components/Dummy";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/secondpage" element={<Secondpage />} />
           <Route exact path="/footer" element={<Footer />} />
+          <Route exact path="/dummy" element={<Dummy />} />
         </Routes>
       </Router>
     </div>

@@ -87,6 +87,12 @@ header .search .fa-search{
     justify-content: space-between;
 
 }
+.navbar ul li .tags{
+    text-decoration: none;
+    color: white;
+    
+}
+
 .cont{
     display: flex;
     justify-content: space-between;

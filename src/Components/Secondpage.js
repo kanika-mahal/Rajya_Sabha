@@ -1,6 +1,7 @@
 import React from "react";
 import "./Secondpage.css";
 import "./Footer";
+import { Link } from "react-router-dom";
 
 function Secondpage() {
   return (
@@ -19,13 +20,34 @@ function Secondpage() {
       </header>
       <div className="navbar">
         <ul>
-          <li>HOME</li>
-          <li>RAJYA SABHA</li>
-          <li>MEMBERS</li>
-          <li>COMMITTES</li>
-          <li>PROCEDURES</li>
-          <li>SECRETARIAT</li>
-          <li>PUBLICATIONS</li>
+          <li className="tags">HOME</li>
+          <li className="tags">RAJYA SABHA</li>
+          <li>
+            <Link to="/dummy" className="tags">
+              MEMBERS
+            </Link>
+          </li>
+          <li>
+            <Link to="/dummy" className="tags">
+              COMMITTEES
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/dummy" className="tags">
+              PROCEDURE
+            </Link>
+          </li>
+          <li>
+            <Link to="/dummy" className="tags">
+              SECRETARIAT
+            </Link>
+          </li>
+          <li>
+            <Link to="/dummy" className="tags">
+              PUBLICATIONS
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="cont">
@@ -82,7 +104,6 @@ function Secondpage() {
           </div>
         </div>
   </div>*/}
-      
     </div>
   );
 }

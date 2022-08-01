@@ -18,6 +18,7 @@ function App() {
           <Route exact path="/dummy" element={<Dummy />} />
         </Routes>
       </Router>
+      <Footer></Footer>
     </div>
   );
 }

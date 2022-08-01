@@ -1,6 +1,6 @@
 import React from "react";
 import "./Secondpage.css";
-import "./Footer";
+
 import { Link } from "react-router-dom";
 
 function Secondpage() {

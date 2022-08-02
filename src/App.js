@@ -6,6 +6,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./Components/Footer.js";
 import Dummy from "./Components/Dummy";
+import Header from "./Components/Header";
 
 function App() {
   return (

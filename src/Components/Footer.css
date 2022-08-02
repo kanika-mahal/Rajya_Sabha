@@ -1,6 +1,9 @@
 footer{
     padding: 20px 0;
     background: #b71719;
+    
+    
+    
 }
 footer ul{
     margin-top: 0;
@@ -9,6 +12,7 @@ footer ul{
     font-size: 20px;
     text-align: center;
     margin-bottom: 0;
+    
 }
 footer ul a{
     color: white;

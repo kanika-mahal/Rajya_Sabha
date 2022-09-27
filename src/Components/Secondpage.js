@@ -23,7 +23,7 @@ function Secondpage() {
           <li className="tags">HOME</li>
           <li className="tags">RAJYA SABHA</li>
           <li>
-            <Link to="/dummy" className="tags">
+            <Link to="/member" className="tags">
               MEMBERS
             </Link>
           </li>

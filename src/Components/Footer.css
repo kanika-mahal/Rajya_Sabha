@@ -20,7 +20,7 @@ footer ul a{
     opacity: 0.8;
 }
 footer ul li{
-    display: inline-block;
+     display: inline-block;
     padding: 8px;
 }
 footer ul li a:hover{

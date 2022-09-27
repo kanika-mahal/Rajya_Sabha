@@ -30,10 +30,6 @@ export const Dummy = () => {
         </div>
         <img src={"rocket.png"} className="rocket" />
       </div>
-      <script>
-        var countDownDate = new Date("Aug 3, 2022 00:00:00").getTime(); var x
-        =setInterval(function(){},1000);
-      </script>
     </div>
   );
 };
